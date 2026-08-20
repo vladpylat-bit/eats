@@ -1,0 +1,51 @@
+.how {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1440px;
+  height: 619px;
+}
+.how .section-title {
+  width: 100%;
+  text-align: center;
+}
+.how .col-left {
+  width: 49.275%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.how .col-right {
+  width: 50.625%;
+}
+.how .article {
+  width: 568px;
+  height: 280px;
+}
+.how .article .article-top-title-orange {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #FA4A0C;
+}
+.how .article .article-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+.how .article .article-text {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}/*# sourceMappingURL=how.css.map */

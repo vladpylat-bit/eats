@@ -1,13 +1,253 @@
-body {
-  background-color: #e072d5;
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 156px;
+  background: white;
+  padding: 0 164px 0 90px;
+}
+
+.logo {
+  width: 150px;
+  height: 65px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  gap: 94px;
+}
+.nav-link {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #252B42;
+}
+.nav .active-link {
+  color: #FA4A0C;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: 619px;
+  background-image: url(./main_bg.png);
+  background-size: cover;
+  padding-top: 80px;
+}
+
+.main_title {
+  width: 799px;
+  font-weight: 700;
+  font-size: 58px;
+  leading-trim: NONE;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main_bottom_title {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #F6F6F6;
+}
+
+.buttons {
+  display: flex;
+  width: 539px;
+  height: 68px;
+  margin-top: 54px;
+  gap: 67px;
+}
+
+.top_section {
+  display: flex;
+  width: 1440px;
+  height: 748px;
+  background: white;
+}
+
+.section_1 {
+  width: 1440px;
+  height: 748px;
+  background: red;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: 619px;
+  background-image: url(./background_end.png);
+}
+
+.bottom_main_title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.bottom_main_bottom_title {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.bottom_buttons {
+  width: 142px;
+  height: 64px;
+  border-radius: 10px;
+  angle: 0 deg;
+  opacity: 1;
+  gap: 10px;
+}
+
+.how {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1440px;
+  height: 619px;
+}
+.how .section-title {
+  width: 100%;
+  text-align: center;
+}
+.how .col-left {
+  width: 49.275%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.how .col-right {
+  width: 50.625%;
+}
+.how .article {
+  width: 568px;
+  height: 280px;
+}
+.how .article .article-top-title-orange {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #FA4A0C;
+}
+.how .article .article-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+.how .article .article-text {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 307px;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 0 116px 0 114px;
+  gap: 735px;
+}
+
+.copywright {
+  width: 310px;
+  height: 18px;
+}
+
+.top_title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #FA4A0C;
+}
+.top_title_white {
+  color: #ffffff;
+}
+
+.btn {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  width: 236px;
+  height: 68px;
+  background: #FA4A0C;
+  border-radius: 60px;
+}
+.btn_no-bg {
+  background: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #b5e0ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
 
 .container {
   width: 1440px;
-  height: 2000px;
+  height: 2500px;
   background: #000;
   margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
